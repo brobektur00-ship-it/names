@@ -1,0 +1,332 @@
+.talas {
+    width: 280px;
+    height: auto;
+
+}
+body {
+    background: linear-gradient(to right, rgb(255, 100, 11), red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease-in-out infinite;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-btn {
+  font-size: 24px;
+  padding: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background: #333;
+  color: white;
+  padding-top: 60px;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #444;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#menu-toggle:checked ~ .sidebar {
+  left: 0;
+}
+
+#menu-toggle:checked ~ .content {
+  margin-left: 250px;
+  transition: 0.3s;
+}
+.welcome {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cadetblue;
+    border-radius: 100px;
+}
+
+.pjdzagolovok {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(95, 158, 160, 0.286);
+}
+.abza {
+    color: rgba(21, 194, 216, 0.856);
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(95, 158, 160, 0.286);
+}
+.header {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(102, 127, 128, 0.286);
+    border: 2px solid rgba(0, 0, 0, 0.286);
+    
+}
+.header:nth-child(even) {
+    text-align: left;
+    flex-direction: row-reverse;
+
+}
+.header:nth-child(odd) {
+    text-align: right;
+    flex-direction: row-reverse;
+
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.286);
+    text-shadow: 1px 10px 5px rgba(0, 0, 0, 0.853);}
+.talas {
+    width: 300px;
+    height: auto;
+    flex-direction: row-reverse;
+    float: right;
+}
+.dkf {
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(95, 158, 160, 0.286);
+    align-items: flex-start;
+}
+.talas-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+.talass {
+    width: 420px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.chuj {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+.chuj-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.chuyy {
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.gerb {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+.gerb-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.oshh {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.ikk {
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.Issyk {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+.Issyk-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.narynn {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.Naryn {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+.Naryn-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.jajall {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.zalalabad {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+.zalalabad-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.batkenn {
+    width: 450px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Batken {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+}
+.Batken-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    align-items: right;
+    background-color: rgb(22, 186, 170);
+    justify-content: right;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 28px;
+    background: rgba(0,0,0,0.12);
+    border-radius: 18px;
+    box-shadow: 0 18px 50px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.welcome {
+    text-shadow: 0 6px 20px rgba(0,0,0,0.45);
+    letter-spacing: 0.6px;
+}
+.pjdzagolovok {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.header a {
+    display: inline-block;
+    width: calc(48% - 18px);
+    margin: 10px 8px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    transition: transform 220ms ease, box-shadow 220ms ease, background 220ms ease;
+    color: inherit;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 1.45;
+}
+
+.header a img {
+    width: 84px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    margin-right: 12px;
+    transition: transform 220ms ease, box-shadow 220ms ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.header a:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+    background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+}
+
+.header a:hover img {
+    transform: scale(1.06) rotate(-5deg);
+}
+
+.header a .title {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.header a .meta {
+    display: block;
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.header a { white-space: pre-wrap; }
+
+
+
+.header a:focus { outline: 3px solid rgba(255,255,255,0.08); outline-offset: 4px; }
+
+.header a ul { margin: 8px 0 0 18px; color: rgba(255,255,255,0.92); }
+
+.header::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin-top: 18px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+}
